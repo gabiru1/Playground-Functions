@@ -20,9 +20,10 @@ function splitSentence(str) {
 }
 
 // Desafio 4
-function concatName() {
+function concatName(array) {
   // seu código aqui
-  
+  let stringComVirgula = array[array.length - 1] + ", " + array[0];
+  return stringComVirgula;
 }
 
 // Desafio 5
