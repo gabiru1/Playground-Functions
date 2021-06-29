@@ -22,7 +22,8 @@ function splitSentence(str) {
 // Desafio 4
 function concatName(array) {
   // seu código aqui
-  let stringComVirgula = array[array.length - 1] + ', ' + array[0];
+  let virgula = ', ';
+  let stringComVirgula = array[array.length - 1] + virgula + array[0];
   return stringComVirgula;
 }
 
@@ -47,8 +48,14 @@ function highestCount(array) {
 }
 
 // Desafio 7
-function catAndMouse() {
+function catAndMouse(mouse, cat1, cat2) {
   // seu código aqui
+  let deramMole = 'os gatos trombam e o rato foge';
+  if (Math.abs(cat1 - mouse) < Math.abs(cat2 - mouse)) {
+    return 'cat1';
+  } else if (Math.abs(cat2 - mouse) < Math.abs(cat1 - mouse)) {
+    return 'cat2';
+  } else return deramMole;
 }
 
 // Desafio 8
