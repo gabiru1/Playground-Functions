@@ -55,7 +55,8 @@ function catAndMouse(mouse, cat1, cat2) {
     return 'cat1';
   } else if (Math.abs(cat2 - mouse) < Math.abs(cat1 - mouse)) {
     return 'cat2';
-  } else return deramMole;
+  }
+  return deramMole;
 }
 
 // Desafio 8
