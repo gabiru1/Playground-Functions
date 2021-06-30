@@ -15,6 +15,7 @@ function calcArea(b, h) {
 // Desafio 3
 function splitSentence(str) {
   // seu código aqui
+  // https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/split
   let stringArreyzada = str.split(' ');
   return stringArreyzada;
 }
@@ -37,6 +38,7 @@ function footballPoints(wins, ties) {
 // Desafio 6
 function highestCount(array) {
   // seu código aqui
+  // https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/max
   let maxNumber = Math.max(...array);
   let quantidade = 0;
   for (const number of array) {
