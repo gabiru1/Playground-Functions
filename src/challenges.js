@@ -53,7 +53,8 @@ function catAndMouse(mouse, cat1, cat2) {
   let deramMole = 'os gatos trombam e o rato foge';
   if (Math.abs(cat1 - mouse) < Math.abs(cat2 - mouse)) {
     return 'cat1';
-  } else if (Math.abs(cat2 - mouse) < Math.abs(cat1 - mouse)) {
+  }
+  if (Math.abs(cat2 - mouse) < Math.abs(cat1 - mouse)) {
     return 'cat2';
   }
   return deramMole;
@@ -63,7 +64,6 @@ function catAndMouse(mouse, cat1, cat2) {
 function fizzBuzz(arrayNumeros) {
   // seu código aqui
   const result = [];
-
   for (const numb of arrayNumeros) {
     if (numb % 3 === 0 && numb % 5 === 0) {
       result.push('fizzBuzz');
