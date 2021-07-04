@@ -83,20 +83,20 @@ function fizzBuzz(arrayNumeros) {
 function encode(stg) {
   // seu código aqui
   // https://www.devmedia.com.br/javascript-replace-substituindo-valores-em-uma-string/39176
-  var stg2 = stg.replace(/a/g, '1');
-  var stg3 = stg2.replace(/e/g, '2');
-  var stg4 = stg3.replace(/i/g, '3');
-  var stg5 = stg4.replace(/o/g, '4');
-  var stg6 = stg5.replace(/u/g, '5');
+  let stg2 = stg.replace(/a/g, '1');
+  let stg3 = stg2.replace(/e/g, '2');
+  let stg4 = stg3.replace(/i/g, '3');
+  let stg5 = stg4.replace(/o/g, '4');
+  let stg6 = stg5.replace(/u/g, '5');
   return stg6;
 }
 function decode(stg7) {
   // seu código aqui
-  var stg8 = stg7.replace(/1/g, 'a');
-  var stg9 = stg8.replace(/2/g, 'e');
-  var stg10 = stg9.replace(/3/g, 'i');
-  var stg11 = stg10.replace(/4/g, 'o');
-  var stg12 = stg11.replace(/5/g, 'u');
+  let stg8 = stg7.replace(/1/g, 'a');
+  let stg9 = stg8.replace(/2/g, 'e');
+  let stg10 = stg9.replace(/3/g, 'i');
+  let stg11 = stg10.replace(/4/g, 'o');
+  let stg12 = stg11.replace(/5/g, 'u');
   return stg12;
 }
 
